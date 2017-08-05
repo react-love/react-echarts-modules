@@ -4,6 +4,8 @@
 
 ## NO
 
+**注意：该项目仅作为源码学习使用，不能采取npm install --save react-echarts-modules的方式导入你的项目，因为这不是一个插件！！**
+
 **在这里，我使用echarts提供的模块化加载方式，实现了几个react-echarts图表组件：[react-echarts图表在线渲染查看][1]**
 
 **你可以打开控制台，观察每个图表组件的加载情况。**
