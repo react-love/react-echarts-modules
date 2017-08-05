@@ -1,6 +1,20 @@
 {
+  "BarReact.js": "static/js/BarReact.af9ef152.chunk.js",
+  "BarReact.js.map": "static/js/BarReact.af9ef152.chunk.js.map",
+  "CandlestickReact.js": "static/js/CandlestickReact.177842be.chunk.js",
+  "CandlestickReact.js.map": "static/js/CandlestickReact.177842be.chunk.js.map",
+  "LineReact.js": "static/js/LineReact.c9527e1b.chunk.js",
+  "LineReact.js.map": "static/js/LineReact.c9527e1b.chunk.js.map",
+  "MapReact.js": "static/js/MapReact.1dc9a30d.chunk.js",
+  "MapReact.js.map": "static/js/MapReact.1dc9a30d.chunk.js.map",
+  "PieReact.js": "static/js/PieReact.d659faac.chunk.js",
+  "PieReact.js.map": "static/js/PieReact.d659faac.chunk.js.map",
+  "RadarReact.js": "static/js/RadarReact.7a0aebeb.chunk.js",
+  "RadarReact.js.map": "static/js/RadarReact.7a0aebeb.chunk.js.map",
+  "ScatterReact.js": "static/js/ScatterReact.bb1cd46a.chunk.js",
+  "ScatterReact.js.map": "static/js/ScatterReact.bb1cd46a.chunk.js.map",
   "main.css": "static/css/main.65027555.css",
   "main.css.map": "static/css/main.65027555.css.map",
-  "main.js": "static/js/main.d267d68a.js",
-  "main.js.map": "static/js/main.d267d68a.js.map"
+  "main.js": "static/js/main.d2358180.js",
+  "main.js.map": "static/js/main.d2358180.js.map"
 }

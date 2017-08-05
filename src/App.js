@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import asyncComponent from './AsyncComponent'
 import { pieOption, barOption, lineOption, scatterOption, mapOption, radarOption, candlestickOption } from './optionConfig/options'
-import PieReact from './EchartsDemo/PieReact' //饼图组件
-import BarReact from './EchartsDemo/BarReact' //柱状图组件
-import LineReact from './EchartsDemo/LineReact' //折线图组件
-import ScatterReact from './EchartsDemo/ScatterReact' //散点图组件
-import MapReact from './EchartsDemo/MapReact' //地图组件
-import RadarReact from './EchartsDemo/RadarReact' //雷达图组件
-import CandlestickReact from './EchartsDemo/CandlestickReact' //k线图组件
+const PieReact = asyncComponent(() => import(/* webpackChunkName: "PieReact" */'./EchartsDemo/PieReact'))  //饼图组件
+const BarReact = asyncComponent(() => import(/* webpackChunkName: "BarReact" */'./EchartsDemo/BarReact')) //柱状图组件
+const LineReact = asyncComponent(() => import(/* webpackChunkName: "LineReact" */'./EchartsDemo/LineReact'))  //折线图组件
+const ScatterReact = asyncComponent(() => import(/* webpackChunkName: "ScatterReact" */'./EchartsDemo/ScatterReact'))  //散点图组件
+const MapReact = asyncComponent(() => import(/* webpackChunkName: "MapReact" */'./EchartsDemo/MapReact'))  //地图组件
+const RadarReact = asyncComponent(() => import(/* webpackChunkName: "RadarReact" */'./EchartsDemo/RadarReact')) //雷达图组件
+const CandlestickReact = asyncComponent(() => import(/* webpackChunkName: "CandlestickReact" */'./EchartsDemo/CandlestickReact')) //k线图组件
 
 class App extends Component {
   render() {
