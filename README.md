@@ -91,7 +91,66 @@ npm run build
 
 2、异步加载是提高图表加载性能的最佳方式，不管是服务端还是客户端渲染。
 
-3、在这写demo中，我认为对你来说最有价值的是react组件异步加载模式，很多人异步加载组件是通过拆分路由的方式，而非路由组件的异步加载，并不多人去尝试。但我想告诉你的是，
+3、在这些demo中，我认为对你来说最有价值的是react组件异步加载模式，很多人异步加载组件是通过拆分路由的方式，而非路由组件的异步加载，并不多人去尝试。但我想告诉你的是，
 非路由组件的异步加载会将你的庞大的父组件拆分的更细，体积更小，加载的更加流畅。
+
+### 附echarts各个模块导出路径
+
+```javascript
+/**
+ * 导出echarts主模块
+ */
+module.exports = require('./lib/echarts');
+
+// 各子模块路径
+require('./lib/chart/line');
+require('./lib/chart/bar');
+require('./lib/chart/pie');
+require('./lib/chart/scatter');
+require('./lib/chart/radar');
+
+require('./lib/chart/map');
+require('./lib/chart/treemap');
+require('./lib/chart/graph');
+require('./lib/chart/gauge');
+require('./lib/chart/funnel');
+require('./lib/chart/parallel');
+require('./lib/chart/sankey');
+require('./lib/chart/boxplot');
+require('./lib/chart/candlestick');
+require('./lib/chart/effectScatter');
+require('./lib/chart/lines');
+require('./lib/chart/heatmap');
+require('./lib/chart/pictorialBar');
+require('./lib/chart/themeRiver');
+require('./lib/chart/custom');
+
+require('./lib/component/graphic');
+require('./lib/component/grid');
+require('./lib/component/legend');
+require('./lib/component/tooltip');
+require('./lib/component/axisPointer');
+require('./lib/component/polar');
+require('./lib/component/geo');
+require('./lib/component/parallel');
+require('./lib/component/singleAxis');
+require('./lib/component/brush');
+require('./lib/component/calendar');
+
+require('./lib/component/title');
+
+require('./lib/component/dataZoom');
+require('./lib/component/visualMap');
+
+require('./lib/component/markPoint');
+require('./lib/component/markLine');
+require('./lib/component/markArea');
+
+require('./lib/component/timeline');
+require('./lib/component/toolbox');
+
+require('zrender/lib/vml/vml');
+
+```
 
 [1]: http://setcamp.tech
